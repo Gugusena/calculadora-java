@@ -2,6 +2,7 @@
 *.class
 # Archivos generados por Maven
 target/
+/nbactions.xml
 # IntelliJ IDEA
 .idea/
 *.iml
