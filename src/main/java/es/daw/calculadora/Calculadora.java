@@ -36,5 +36,20 @@ public class Calculadora {
         }
         return a / b;
     }
+    
+    // Calcula la potencia de un número
+    public double potencia(double base, double exponente) {
+        return Math.pow(base, exponente);
+    }
+    // Calcula el resto de la división entre dos números
+    public double modulo(double a, double b) {
+        if (b == 0) {
+            throw new IllegalArgumentException(
+                    "No se puede calcular el módulo entre cero"
+            );
+        }
+        return a % b;
+    }
+
 }
 
