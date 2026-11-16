@@ -29,13 +29,12 @@ public class main {
         System.out.println(
                 "División: " + calculadora.dividir(numero1, numero2)
         );
-        // Prueba del método potencia
         System.out.println(
                 "Potencia: " + calculadora.potencia(numero1, numero2)
         );
-        // Prueba del método módulo
         System.out.println(
                 "Módulo: " + calculadora.modulo(numero1, numero2)
         );
+
     }
 }
